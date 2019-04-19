@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "906551101413",
+    "firebase_url": "https://pinoy-seoul.firebaseio.com",
+    "project_id": "pinoy-seoul",
+    "storage_bucket": "pinoy-seoul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906551101413:android:76cdbbb801b80591",
+        "android_client_info": {
+          "package_name": "com.pinoyseoul.talaarawan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906551101413-nepm968ie7hcoo5sn7gnikpbasqurmbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pinoyseoul.talaarawan",
+            "certificate_hash": "97e39b9278cec449bb83fc006375807b6ccd27de"
+          }
+        },
+        {
+          "client_id": "906551101413-b2a9g31kpngbmbs0iqbo5g21b1rdpert.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfp9Nc80SCLVhobh44gTlzThsV5v_D5LU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906551101413-b2a9g31kpngbmbs0iqbo5g21b1rdpert.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906551101413:android:c3e0fc3df7cf6c4b",
+        "android_client_info": {
+          "package_name": "pinoy.seoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906551101413-b2a9g31kpngbmbs0iqbo5g21b1rdpert.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfp9Nc80SCLVhobh44gTlzThsV5v_D5LU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906551101413-b2a9g31kpngbmbs0iqbo5g21b1rdpert.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
