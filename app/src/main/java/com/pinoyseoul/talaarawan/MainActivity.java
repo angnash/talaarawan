@@ -183,9 +183,11 @@ public class MainActivity extends AppCompatActivity {
         builder.setView(linLayout);
 
         final EditText textField1 = new EditText(this);
+        textField1.setHint("Add Title Here");
         linLayout.addView(textField1);
 
         final EditText textField2 = new EditText(this);
+        textField2.setHint("Add New Note Here");
         linLayout.addView(textField2);
 
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
