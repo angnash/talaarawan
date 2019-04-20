@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:906551101413:android:76cdbbb801b80591",
+        "mobilesdk_app_id": "1:906551101413:android:ec7939dc722c290e",
         "android_client_info": {
-          "package_name": "com.pinoyseoul.talaarawan"
+          "package_name": "com.pinoyseoul.store"
         }
       },
       "oauth_client": [
         {
-          "client_id": "906551101413-nepm968ie7hcoo5sn7gnikpbasqurmbj.apps.googleusercontent.com",
+          "client_id": "906551101413-fbnrk6pcjah80qkaf4jkm9pfl3mbjggd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.pinoyseoul.talaarawan",
+            "package_name": "com.pinoyseoul.store",
             "certificate_hash": "97e39b9278cec449bb83fc006375807b6ccd27de"
           }
         },
@@ -45,12 +45,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:906551101413:android:c3e0fc3df7cf6c4b",
+        "mobilesdk_app_id": "1:906551101413:android:eda5d58f4410138b",
         "android_client_info": {
-          "package_name": "pinoy.seoul"
+          "package_name": "com.pinoyseoul.talaarawan"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "906551101413-4ac561g6hsn14bcqh6bfq5fnl5ni8pt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pinoyseoul.talaarawan",
+            "certificate_hash": "97e39b9278cec449bb83fc006375807b6ccd27de"
+          }
+        },
         {
           "client_id": "906551101413-b2a9g31kpngbmbs0iqbo5g21b1rdpert.apps.googleusercontent.com",
           "client_type": 3

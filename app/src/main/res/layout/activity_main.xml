@@ -8,16 +8,16 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="388dp"
-        android:layout_height="669dp"
+        android:layout_width="390dp"
+        android:layout_height="656dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/noteFeedButton" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/noteFeedButton"
@@ -25,14 +25,15 @@
         android:layout_width="392dp"
         android:layout_height="59dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="#ffffff"
-        android:gravity="start"
+        android:gravity="clip_horizontal|center_horizontal|center_vertical"
         android:text="@string/view_text"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#39a4c6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(MainActivity.this, "This is the Note Feed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This application is created by Nash Ang.", Toast.LENGTH_SHORT).show();
 
             }
 
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String valueKey = dataSnapshot.getKey();
                 String value = dataSnapshot.getValue(String.class);
-                arrayadapter.add("TITLE: " + valueKey + "\n\n" + value);
+                arrayadapter.add("AUTHOR: " + valueKey + "\n\n" + value);
                 Log.d("test", "Value is: " + valueKey + " " + value);
 
             }
@@ -179,15 +179,15 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         LinearLayout linLayout = new LinearLayout(this);
         linLayout.setOrientation(LinearLayout.VERTICAL);
-        builder.setTitle("Create New Note");
+        builder.setTitle("Write New Quote");
         builder.setView(linLayout);
 
         final EditText textField1 = new EditText(this);
-        textField1.setHint("Add Title Here");
+        textField1.setHint("Who is the Author?");
         linLayout.addView(textField1);
 
         final EditText textField2 = new EditText(this);
-        textField2.setHint("Add New Note Here");
+        textField2.setHint("What is his/her quote?");
         linLayout.addView(textField2);
 
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
